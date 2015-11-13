@@ -1,0 +1,21 @@
+*{outline: 1px solid red;
+}
+.list-nav{
+	float: right;
+}
+.list-nav li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.list-nav a{
+	display: block;/*le damos esto para darle mayor masa o volumen ayudara con el pading*/
+	padding: 5px 20px;
+	color: #555;
+	font-family: "Oswald",Arial,sans-serif;
+	text-transform: uppercase;/*para transf en mayusaculas*/
+	text-decoration: none;
+	transition: all 0.5s;/*ver la transtion*/
+}
+.list-nav ul li{
+
+}
